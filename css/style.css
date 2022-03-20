@@ -1,0 +1,240 @@
+/* Section 1 Style */
+#section-1 {
+  background-image: url('img/img/header-bg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#section-1 .section-1-h1 {
+  font-family: 'Noto Serif', serif;
+}
+
+#section-1 .section-1-p {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 4em;
+}
+
+#section-1 div.section-1-content-container button {
+  background-color: #fed136;
+  color: white;
+  padding: 15px 30px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#section-1 div.section-1-content-container {
+  padding:245px 0px;
+  color:white
+}
+
+#section-1 a.agency-link {
+  font-family: 'Kaushan Script', cursive;
+  color: #fed136;
+  font-size: 2em;
+}
+
+#section-1 li a{
+  text-transform: uppercase;
+  color: white;
+  letter-spacing:2px;
+}
+
+/* Section 2 Style */
+.section-2 {
+  padding: 120px 0px;
+}
+
+.section-2 h2 {
+  font-family: 'Mitr', sans-serif;
+}
+
+.section-2 h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.section-2 p {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.section-2 i.services-icon {
+  color:white;
+  background-color: #fed136;
+  font-size: 3.5em;
+  border-radius: 100%;
+}
+
+.section-2 #service-icon-1 {
+  padding:35px;
+}
+
+.section-2 #service-icon-2 {
+  padding:35px 30px;
+}
+
+.section-2 #service-icon-3 {
+  padding:35px 40px;
+}
+
+/* Section 3 Style */
+.section-3 {
+  padding: 120px 0px;
+}
+
+.section-3 h2 {
+  font-family: 'Mitr', sans-serif;
+}
+
+.section-3 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-3 h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.section-3 .portfolio-img {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 15em;
+  width: 20em;
+}
+
+.section-3 .portfolio-text {
+  padding-top:15px;
+  padding-bottom:10px;
+  width:20em;
+  background-color: white;
+}
+
+.section-3 h3.portfolio-hover{
+  color: white;
+  position: absolute;
+  margin:0;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(47, 99%, 60%, 0.8);
+  line-height: 2.8em;
+  font-size: 5em;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.section-3 h3.portfolio-hover:hover {
+  opacity: 1;
+}
+
+/* Section 4 Style */
+.section-4 {
+  padding: 120px 0px;
+}
+
+.section-4 h2 {
+  font-family: 'Mitr', sans-serif;
+}
+
+.section-4 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-4 h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.section-4 img.section-4-img {
+  border:solid 5px #e9ecef;
+  width:8em;
+  height:8em;
+  border-radius: 100%;
+}
+
+.section-4-btn {
+  width: 8em;
+  height: 8em;
+  background-color: #fed136;
+  color: white;
+  border-radius: 100%;
+  border:solid 5px #e9ecef;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Section 5 Style */
+
+.section-5 {
+  padding: 120px 0px;
+}
+
+.section-5 h2 {
+  font-family: 'Mitr', sans-serif;
+}
+
+.section-5 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-5 h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.section-5 .icons i {
+  padding: 0px 7px;
+  font-size: 2.5em;
+  color:#212529;
+}
+
+/* Section 6 Style */
+
+.section-7 {
+  background-color: #212529;
+  background-image: url('img/img/map-image.png');
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+.section-7 textarea.section-7-textarea {
+  height: 100%;
+}
+
+.section-7 .section-7-input {
+  height: 60px;
+  width:100%;
+}
+
+.section-7 #section-7-btn {
+  background-color: #fed136;
+  color: white;
+  padding: 15px 30px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section-7 h2 {
+  font-family: 'Mitr', sans-serif;
+  color: white;
+}
+
+/* Footer Style */
+
+footer {
+  padding:15px 0px;
+}
+footer div a i {
+  padding: 0px 7px;
+  font-size: 2.5em;
+  color:#212529;
+}
+
+footer div a {
+  color:#fed136;
+}
